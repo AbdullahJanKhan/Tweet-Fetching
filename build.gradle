@@ -4,7 +4,9 @@ buildscript {
     repositories {
         google()
         jcenter()
-        
+        maven {
+                url  "https://dl.bintray.com/abdullahjankhan/TwitterSentiment"
+        }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.5.3'
